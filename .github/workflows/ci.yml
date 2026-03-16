@@ -23,7 +23,7 @@ jobs:
   
   deploy-docker:
     needs: build-and-test
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
